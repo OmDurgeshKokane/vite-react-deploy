@@ -14,7 +14,8 @@ import Dashboard from "./pages/admin/dashboard/Dashboard";
 import MyState from "./context/data/myState";
 import CreateBlog from "./pages/admin/createBlog/CreateBlog";
 import { Toaster } from "react-hot-toast";
-import Nopage from "./pages/nopage/NoPage";
+import NoPage from "./pages/nopage/NoPage";
+
 
 function App() {
   return (
