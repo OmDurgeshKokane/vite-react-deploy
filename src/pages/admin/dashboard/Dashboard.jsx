@@ -3,7 +3,6 @@ import Layout from "../../../components/layout/Layout";
 import myContext from "../../../context/data/myContext";
 import { Button } from "@material-tailwind/react";
 import { Link, useNavigate } from "react-router-dom";
-import defaultImage from '../../../../images/IMG_8466.jpg'
 
 function Dashboard() {
   const context = useContext(myContext);
@@ -23,7 +22,7 @@ function Dashboard() {
           <div className="left">
             <img
               className=" w-40 h-40  object-cover rounded-full border-2 border-pink-600 p-1"
-              src={defaultImage}
+              src={"../../../assets/IMG_8466.jpg"}
               alt="profile"
             />
           </div>
