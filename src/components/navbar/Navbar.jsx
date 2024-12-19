@@ -114,7 +114,7 @@ export default function Nav() {
                 <Avatar
                   key={1}
                   src={
-                    "../../../images/IMG_8466.jpg"
+                    "https://cdn-icons-png.flaticon.com/128/727/727399.png"
                   }
                   alt="avatar"
                   withBorder={true}
