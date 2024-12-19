@@ -18,7 +18,7 @@ import Nopage from "./pages/nopage/Nopage";
 function App() {
   return (
     <MyState>
-      <Router>
+      <Router basename="/vite-react-deploy">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
